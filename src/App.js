@@ -31,7 +31,7 @@ const languageGreetingsList = [
 ]
 
 // Replace your code here
-class App extends Components {
+class App extends Component {
   state = {
     activeTabId: languageGreetingsList[0].id,
   }
